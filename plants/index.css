@@ -1,0 +1,134 @@
+@import url(reset.css);
+
+/*
+font-family: 'Inika', serif;
+font-family: 'Inter', sans-serif;
+*/
+
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* HEADER */
+
+.header {
+  font-family: "Inika", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  background: #edf2ec;
+  padding: 42px 0;
+  color: #000000;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__title::before {
+  content: url(../assets/icons/logo.png);
+}
+
+.navigation {
+  display: flex;
+  column-gap: 46px;
+  padding: 0px 3px;
+}
+
+.navigation > a > li:hover {
+  color: #e06733;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+/* MAIN */
+
+/* WECLOME SECTION */
+
+.welcome {
+  background: #edf2ec;
+}
+
+.welcome-wrapper {
+  display: flex;
+  padding: 60px 0;
+  justify-content: space-between;
+}
+
+.welcome__image {
+  max-width: 449px;
+  max-height: 407px;
+}
+
+.welcome__content {
+  padding: 36px 0;
+  max-width: 549px;
+}
+
+.welcome__content__title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+  margin-bottom: 45px;
+}
+
+.welcome__content__title > span {
+  color: #499a18;
+}
+
+.weclome__content__text {
+  line-height: 35px;
+  margin-bottom: 47px;
+}
+
+.welcome__content__button {
+  font-size: 16px;
+  line-height: 18px;
+  border: 2px solid #e06733;
+  border-radius: 10px;
+  padding: 11px 26px;
+  color: #000000 !important;
+}
+
+/* ABOUT SECTION */
+
+.about-wrapper {
+  display: flex;
+  padding: 94px 0;
+  justify-content: space-between;
+}
+
+.about__content {
+  max-width: 605px;
+  margin-top: 66px;
+}
+
+.about__content__title {
+  font-family: "Inika", serif;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499a18;
+  margin-bottom: 38px;
+}
+
+.about__content__title > span {
+  color: #e06733;
+}
+
+.about__image {
+  max-height: 479px;
+}
