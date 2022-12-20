@@ -5,11 +5,15 @@ font-family: 'Inika', serif;
 font-family: 'Inter', sans-serif;
 */
 
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 30px;
   color: #636060;
 }
@@ -18,6 +22,11 @@ body {
   max-width: 1250px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.layout-2-column {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* HEADER */
@@ -39,7 +48,7 @@ body {
 }
 
 .logo__title::before {
-  content: url(../assets/icons/logo.png);
+  content: url(../../assets/icons/logo.png);
 }
 
 .navigation {
@@ -62,11 +71,11 @@ body {
   background: #edf2ec;
 }
 
-.welcome-wrapper {
+/* .welcome-wrapper {
   display: flex;
   padding: 60px 0;
   justify-content: space-between;
-}
+} */
 
 .welcome__image {
   max-width: 449px;
