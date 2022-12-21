@@ -1,4 +1,4 @@
-import "./index.css";
+import "./styles/index.css";
 
 const a = (a: number, b: number) => console.log(a + b);
 
